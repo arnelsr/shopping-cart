@@ -16,15 +16,15 @@ const RouteSwitch = () => {
                 <div className="App-header-1">
                     <Link to="/"><h1>Pet Shop</h1></Link>
                     <div className="App-header-right">
-                        <Link to="/"><h2>Home</h2></Link>
-                        <Link to="/shop"><h2>Shop</h2></Link>
+                        <Link to="/shopping-cart"><h2>Home</h2></Link>
+                        <Link to="/shopping-cart/shop"><h2>Shop</h2></Link>
                         <Link to="/"><h4 className="fa badge fa-lg" value={cart}>&#xf07a;</h4></Link>
                     </div>
                 </div>
             </header>
             <Routes>
-                <Route path="/" element={<App />} />
-                <Route path="/shop" element={<Shop addCart={addCart} />} />
+                <Route path="/shopping-cart" element={<App />} />
+                <Route path="/shopping-cart/shop" element={<Shop addCart={addCart} />} />
             </Routes>
             <footer className="App-footer">
                 @arnelsr
