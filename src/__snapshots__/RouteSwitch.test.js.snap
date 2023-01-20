@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Route Switch renders snapshot 1`] = `
+<div>
+  <div
+    class="App"
+  >
+    <header
+      class="App-header"
+    >
+      <div
+        class="App-header-1"
+      >
+        <a
+          href="/"
+        >
+          <h1>
+            Pet Shop
+          </h1>
+        </a>
+        <div
+          class="App-header-right"
+        >
+          <a
+            href="/"
+          >
+            <h2>
+              Home
+            </h2>
+          </a>
+          <a
+            href="/shop"
+          >
+            <h2>
+              Shop
+            </h2>
+          </a>
+          <h2>
+            Cart:
+          </h2>
+          <h2>
+            0
+          </h2>
+        </div>
+      </div>
+    </header>
+    <div
+      class="App-content"
+    >
+      <div>
+        <h1>
+          Get Your New
+        </h1>
+        <h1>
+          Pet Here!
+        </h1>
+      </div>
+      <img
+        alt="Dog"
+        height="600"
+        src="dog.png"
+        width="600"
+      />
+    </div>
+    <footer
+      class="App-footer"
+    >
+      @arnelsr
+    </footer>
+  </div>
+</div>
+`;
