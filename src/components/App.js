@@ -12,7 +12,7 @@ const App=()=>{
               <h1>Get Your New</h1>
               <h1>Pet Here!</h1>
             </div>
-            <img src={dog} alt="Dog" width="600" height="600"/>
+            <img src={dog} alt="Dog" class="home-image"/>
         </div>
 
   );

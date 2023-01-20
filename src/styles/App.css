@@ -87,6 +87,8 @@ a{
   top:-10px;
   opacity:0.9;
 }
-.fa{
-  margin-bottom: 00px;
+.home-image{
+  width: max(9.229vw, 600px);
+  height: max(9.229vw, 600px);
+  overflow: hidden;
 }
