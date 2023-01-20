@@ -14,11 +14,11 @@ const RouteSwitch = () => {
         <div className="App">
             <header className="App-header">
                 <div className="App-header-1">
-                    <Link to="/"><h1>Pet Shop</h1></Link>
+                    <Link to="/shopping-cart"><h1>Pet Shop</h1></Link>
                     <div className="App-header-right">
                         <Link to="/shopping-cart"><h2>Home</h2></Link>
                         <Link to="/shopping-cart/shop"><h2>Shop</h2></Link>
-                        <Link to="/"><h4 className="fa badge fa-lg" value={cart}>&#xf07a;</h4></Link>
+                        <Link to="/shopping-cart"><h4 className="fa badge fa-lg" value={cart}>&#xf07a;</h4></Link>
                     </div>
                 </div>
             </header>
