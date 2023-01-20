@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Link, HashRouter } from "react-router-dom";
 import App from "./components/App";
 import Shop from "./components/Shop";
 import React, {useState} from 'react';
